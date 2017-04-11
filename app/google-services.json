@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "201978310007",
+    "firebase_url": "https://ecotruco-97027.firebaseio.com",
+    "project_id": "ecotruco-97027",
+    "storage_bucket": "ecotruco-97027.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201978310007:android:3af0aac2259e03fe",
+        "android_client_info": {
+          "package_name": "mx.com.terceroa.alanvazquez.ecotruco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201978310007-19an4ph4p2s9tbcoc4o8s7lnlpvi1sle.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.com.terceroa.alanvazquez.ecotruco",
+            "certificate_hash": "0b600c50c869e9d462f5cb540bf4cb3035a7bbd7"
+          }
+        },
+        {
+          "client_id": "201978310007-jvl12da4nbi10a1b9pnih8eqbieenjha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsaDHD3JFeL_bIJEeAfQjld6Hpk3eUupg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201978310007-jvl12da4nbi10a1b9pnih8eqbieenjha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

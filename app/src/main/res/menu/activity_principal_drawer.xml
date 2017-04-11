@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ecotruco"
+            android:icon="@mipmap/ic_nature_people_black_24dp"
+            android:title="EcoTruco" />
+        <item
+            android:id="@+id/nav_campañas"
+            android:icon="@mipmap/ic_date_range_black_24dp"
+            android:title="Campañas" />
+        <item
+            android:id="@+id/nav_recyclers"
+            android:icon="@mipmap/ic_store_black_24dp"
+            android:title="Recyclers" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configuración" />
+    </group>
+
+    <item android:title="¡Haz eco!">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartir" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Enviar" />
+        </menu>
+    </item>
+
+</menu>
