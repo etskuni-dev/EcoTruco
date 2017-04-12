@@ -40,7 +40,8 @@ public class Fragment_Ecotruco extends Fragment  {
         adapter = new Adapter(getContext(), trucos);
         rv.setAdapter(adapter);
 
-        database.getReference().getRoot().addValueEventListener(new ValueEventListener() {
+        //Se puede usar metodo getRoot() para obtener datos desde la raiz
+        database.getReference("Trucos").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 trucos.removeAll(trucos);

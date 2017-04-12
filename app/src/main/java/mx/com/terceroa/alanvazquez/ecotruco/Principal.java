@@ -97,7 +97,6 @@ public class Principal extends AppCompatActivity
                 fragment = new Fragment_Recyclers();
                 break;
             case  R.id.nav_manage:
-
                 break;
             case R.id.nav_share:
                 Intent intent = new Intent(Intent.ACTION_SEND);
